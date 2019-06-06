@@ -1,0 +1,85 @@
+#canvas-container {
+	position: relative;
+	font-family: Oswald;
+	display: block;
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#canvas-container #btn-pause {
+	position: absolute;
+	right: 16px;
+	top: 24px;
+	background-image: url(images/pause.png);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+#canvas-container #game-subtitle {
+	position: absolute;
+	bottom: .2px;
+	left: 36%;
+	color: white;
+	font-size: 15px;
+	word-spacing: 3px;
+}
+
+#canvas-container #level-title {
+	position: absolute;
+	left: 7%;
+	top: 15%;
+	color: white;
+	font-size: 16px;
+}
+
+#canvas-container #level-msg {
+	position: absolute;
+	left: 7%;
+	top: 20%;
+	color: white;
+	font-size: 16px;
+}
+
+#screen-overlay {
+	position: absolute;
+	display: block;
+	margin: 0 auto;
+	left: 12%;
+	text-align: center;
+	top: 300px;
+	height: 300px;
+	width: 300px;
+	background: none;
+	z-index: 10;
+}
+
+#screen-overlay p {
+	color: #ffff00;
+	font-size: 20px;
+	text-align: center;
+}
+
+#screen-overlay #game-title {
+	font-size: 64px;
+	color: white;
+}
+
+#screen-overlay #game-over {
+	font-size: 50px;
+	line-height: 10px;
+}
+
+#screen-overlay #high-score {
+	font-size: 20px;
+}
+
+#btn-continue {
+	position: absolute;
+	background-color: #00ff80;
+	border-radius: 5px;
+	padding:5px;
+	top:40%;
+	left: 44%;
+}
